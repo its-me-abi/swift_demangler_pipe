@@ -17,7 +17,8 @@ for example
 
 ### usage
 ```
-name = demangler().get_demangled_name("_TtuRxs8RunciblerFxWx5Mince6Quince_")
+import swiftdemangle
+name = swiftdemangle.demangler().get_demangled_name("_TtuRxs8RunciblerFxWx5Mince6Quince_")
 print ( "normalized = " , name )
 ```
 
