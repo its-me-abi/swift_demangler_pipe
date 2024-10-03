@@ -9,7 +9,11 @@ for example
    to understand api calls in macho binary of IOS we should demangle it.
 ```
 
-
+### usage
+```
+name = demangler().get_demangled_name("_TtuRxs8RunciblerFxWx5Mince6Quince_")
+print ( "normalized = " , name )
+```
 
 
 
