@@ -6,7 +6,7 @@ so a faster approach is needed .compiling only demangler from swiftsource is not
 so swift forum suggested a pipe based method.this is it.
 
 
-what is mangling/demangling
+#### what is mangling/demangling
 ```
 mangling means symbouls are  converted to another form.
 so demangling/normalizing is needed to programmatically access it or  understand it visually.
