@@ -1,10 +1,8 @@
 ### swift demangler python library using pipe (incomplete)
 
-this is not pure python library. it uses swift officialy distributed binary.
-laurie wired already wrote ghidra script but it is a slow approach because it starts new process for every demangling
+laurie wired wrote ghidra script but it is a slow approach because it starts new process for every demangling
 so a faster approach is needed .compiling only demangler from swiftsource is not documented anywhere.
 so swift forum suggested a pipe based method.this is it.
-
 
 #### what is mangling/demangling
 ```
